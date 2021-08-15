@@ -1,0 +1,14 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /login
+Disallow: /signup
+Disallow: /forgot-password
+Disallow: /mgt
+Disallow: /mgt/admin_dashboard
+Disallow: /mgt/expert_management
+Disallow: /mgt/project_management
+Disallow: /mgt/project_matching
+Disallow: /mgt/expert_profile
+Disallow: /mgt/expert_application
+Sitemap: http://wwww.hitalents.co.uk/sitemap.xml
+

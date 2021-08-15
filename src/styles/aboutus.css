@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+}
+
+.navBar_font {
+  color: grey;
+}
+
+.aboutUs_container {
+  position: relative;
+  width: 100%;
+  background-color: #f4f7fd;
+  margin-bottom: 1rem;
+}
+
+.aboutus_Article {
+  width: 100%;
+  padding: 50px 30px;
+  color:black !important;
+}
+
+.aboutus_Article h1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+  color: black !important;
+}
+
+.aboutus_Article section {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.question_Container {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.questionSite {
+  padding-left: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  text-align: left !important;
+  margin-bottom: 1rem !important;
+}

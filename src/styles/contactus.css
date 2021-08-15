@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  background-color: #f4f7fd;
+}
+
+.contactUs_Container {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+}
+
+.formInfo {
+  width: 400px;
+  margin-bottom: 10px !important;
+}
+
+.formContent {
+  width: 400px;
+  margin-bottom: 10px !important;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.contact-header {
+  position: absolute;
+  height: 100vh;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.page-title_content {
+  position: absolute;
+  top: 35%;
+  transform: translateY(90%);
+  width: 20%;
+  min-width: 440px;
+}
+.bg-theme {
+  background-color: #00216d;
+}
+.page-title_content h1 {
+  font-size: 6rem;
+  line-height: 1.1;
+  color: white;
+  margin: 0;
+  text-transform: capitalize;
+}
+.contact-form_header h4 {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #000;
+}
+
+.contactAbout-shape {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 0;
+  height: 300px;
+  width: 120px;
+  background: #00216d;
+  margin: 0;
+}
+.btn-primary {
+  background-color: rgb(0, 33, 109);
+  color: white;
+  border: 0;
+  font-weight: 600;
+  transition: background 0.1s ease 0s, color;
+}
+.btn-primary:hover {
+  font-size: 15px;
+  background: rgb(0, 33, 109);
+  color: #fff;
+}
+
+.contact-info {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+  padding: 10px;
+}
+.contact-info .contact-details_title {
+  font-size: 3rem;
+  line-height: 1.4;
+  color: #000;
+  text-transform: capitalize;
+}
+.information {
+  padding: 30px;
+}
+.information h4 {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #000;
+}
+.information ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+.information .fa {
+  padding-right: 20px;
+}
+
+.contact-image {
+  width: 400px;
+  height: 851px;
+}
+
+@media only screen and (min-width: 2100px) {
+}
+@media only screen and (max-width: 600px) {
+  .contact-image {
+    width: 264px;
+    height: 100%;
+  }
+}

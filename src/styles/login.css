@@ -1,0 +1,81 @@
+.btn{
+  margin-left: 2px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(0,17,96);
+    color: white;
+    text-align: center;
+}
+
+
+.section-header, .logo{
+  color: #000;
+  text-transform: uppercase;
+}
+
+
+.registerLogin-page {
+    background: #eee;
+    
+  }
+
+
+  .content-box {
+    background: white;
+    height: 100%;
+  }
+
+  .logo-container .logo {  
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+
+  .registerLogin-title_content {
+    padding-top: 8%;
+  }
+
+  .registerLogin-title_content h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .registerLogin-title_content h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333333;
+  }
+
+  .registerLogin-title_content a {
+    text-decoration: none;
+  }
+
+  .registerLogin-form {
+    margin-top: 2.5rem;
+    max-width: 450px;
+  }
+    
+  
+  .register-bg_image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .login-bg_image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  @media only screen and (min-width: 2100px) {
+    .content-box{
+      display: flex;
+      justify-content: center;
+      height: calc(100vh - 259px);
+    }
+  
+  }
+  

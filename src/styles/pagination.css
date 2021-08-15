@@ -1,0 +1,12 @@
+.pagination {
+justify-content: center;
+
+}
+.page-link{
+    color:rgb(0, 33, 109) !important ;
+}
+
+.page-item.active .page-link{
+    background-color:rgb(0, 33, 109) !important;
+    color: white !important;
+}
